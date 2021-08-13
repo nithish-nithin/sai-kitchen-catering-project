@@ -16,26 +16,30 @@
 }
 .sp{
   color: #1a1100;
+  
 }
  .background{
   background: url(./images/depositphotos_263075904-stock-photo-food-buffet-top-view-party.jpg);
   height: 80vh;
   background-position: center;
   background-size: cover;
+  margin-top: 4rem;
+  
   
  }
  .abt{
    text-align: center;
-   margin-top: 50px;
+   margin-top: 80px;
    
    
  }
  .card{
-   background-color: rgb(255, 255, 255);
+   background-color: #1b1b1b;
    width: 70%;
    align-items: center;
    text-align: center;
    margin-left: 170px;
+   color: #fff;
    box-shadow:0 0 0 3px gray;
    border-radius: 20px;
    
@@ -52,7 +56,74 @@
        padding: 1rem;
        font-size: 20px;
     }
+    .menu{
+      text-align: center;
+       margin-top: 50px;
+    }
+    .menu_content{
+      margin-top: 50px;
+       padding: 10px;
+    }
 
+    .container{
+      margin-top: 50px;
+      margin-left: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+       padding: 20px;
+       justify-content: space-evenly;
+        
+
+      
+    }
+    .bt{
+       margin-left:2rem;
+    }
+    
+    .link a{
+      border: solid rgb(255, 166, 0);
+      text-decoration: none;
+      font-size: 20px;
+      padding: 8px;
+      border-radius: 3px;
+      color: #1b1b1b;
+
+    
+    }
+    .link{
+      margin-top: 2rem;
+      margin-left: 4rem;
+    }
+
+   .contuct{
+     text-align:center;
+     margin-top:50px;
+   }
+   .talk{
+     font-size: 30px;
+     padding: 2rem;
+     text-align: left;
+     margin-left: 2rem;
+   }
+   .con{
+     text-align: left;
+     margin-left: 2rem;
+     padding: 1rem;
+    }
+    
+     
+     
+   
+   .d{
+     color: #fff;
+     font-size: 50px;
+   }
+   nav{
+     position: fixed;
+     top: 0%;
+   }
+    
+   
 
 
 nav{
@@ -64,6 +135,8 @@ nav{
   justify-content: space-between;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
+   
+   margin-top: 0%;
 }
 nav .logo{
   color: #fff;
@@ -134,30 +207,62 @@ span{
     height: 65vh;
     background-position: center;
     background-size: cover;
+    margin-top:80px;
     
    }
    .card{
-    background-color: #ffffff;
+    background-color:#1b1b1b;
     width: 90%;
     align-items: center;
     text-align: center;
     
     margin-left: 20px;
+    margin-top: 30px;
     box-shadow:0 0 0 3px gray;
     border-radius: 20px;
+    color: #fff;
     
   }
   .img{
     width:30px;
     padding: 10px;
-    
+     
   }
   .goo{
     flex-wrap: wrap;
     font-size: 15px;
   }
-  .abt{
-    margin-top: 20px;
+  .abt {
+    margin-top: 100px;
+    font-size: 12px;
+    
+    
+  }
+   .link a{
+    border: solid rgb(255, 166, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    color: #1b1b1b;
+
+  
+  }
+  .link{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+  }
+  .container{
+     margin-left:3px;
+  }
+  .space{
+    margin-left: 2rem;
+    font-size: 15px;
+  }
+  nav{
+    position: fixed;
+    top: 0%;
   }
   
   

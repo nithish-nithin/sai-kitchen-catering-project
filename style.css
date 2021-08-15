@@ -19,7 +19,7 @@
   
 }
  .background{
-  background: url(./images/depositphotos_263075904-stock-photo-food-buffet-top-view-party.jpg);
+  background: url(./images/crop\ bck.jpg);
   height: 80vh;
   background-position: center;
   background-size: cover;
@@ -121,6 +121,16 @@
    nav{
      position: fixed;
      top: 0%;
+   }
+   .non{
+     text-align: center;
+     margin-top: 2rem;
+   }
+   .lie>ul>li{
+     list-style: circle;
+     margin-left: 3rem;
+     margin-top: 1rem;
+     font-size: 1.5rem;
    }
     
    
